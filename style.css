@@ -1,7 +1,6 @@
-* {
-    background-color: #F4E0B9;
+body {
+    background-color: #892CDC;
     font-family: "Barlow";
-    color: black;
 }
 main h1 {
     font-size: 50px;
@@ -17,9 +16,16 @@ main p {
     width: 40%;
 }
 .container {
-    background-color: #FE0000;
     overflow: hidden;
+    text-align: right;
 }
 .container li {
     display: inline-block;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+div.container {
+    background-color: #52057B;
+    color: #fff;
+    margin: -10px;
 }
