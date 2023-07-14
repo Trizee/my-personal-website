@@ -1,3 +1,25 @@
-body {
-    background: blue;
+* {
+    background-color: #F4E0B9;
+    font-family: "Barlow";
+    color: black;
+}
+main h1 {
+    font-size: 50px;
+    padding-top: 20px;
+    margin-top: 5%;
+    margin-bottom: -40px;
+    padding-left: 10%;
+    width: 40%;
+}
+main p {
+    font-size: 45px;
+    padding-left: 10%;
+    width: 40%;
+}
+.container {
+    background-color: #FE0000;
+    overflow: hidden;
+}
+.container li {
+    display: inline-block;
 }
