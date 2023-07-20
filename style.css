@@ -62,3 +62,23 @@ button:hover {
 header p{
     margin-right: auto;
 }
+
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100vh;
+}
+ 
+.about h1{
+    font-size: 50px;
+}
+
+.about p {
+    font-size: 30px;
+}
+
+.wrapper img{
+    max-width: 40vh;
+    max-height: 40vh;
+}
