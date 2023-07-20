@@ -70,15 +70,21 @@ header p{
     min-height: 100vh;
 }
  
-.about h1{
+h1{
     font-size: 50px;
 }
 
-.about p {
+p {
     font-size: 30px;
 }
 
 .wrapper img{
     max-width: 40vh;
     max-height: 40vh;
+}
+
+.photos img {
+    display: flexbox;
+    justify-content: space-evenly;
+    padding: 0 25px;
 }
