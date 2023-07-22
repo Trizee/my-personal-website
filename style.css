@@ -88,3 +88,7 @@ p {
     justify-content: space-evenly;
     padding: 0 25px;
 }
+
+footer {
+    background-color: #d23433;
+}
