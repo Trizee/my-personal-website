@@ -4,6 +4,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body{
     background-color: #fff;
 }
 
@@ -90,5 +93,45 @@ p {
 }
 
 footer {
-    background-color: #d23433;
+    background-color: #111;
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+    color: #fff;
+    min-height: 40px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.contact p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+ 
+.socials{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+.socials img{
+    max-width: 40px;
+    max-height: 40px;
 }
